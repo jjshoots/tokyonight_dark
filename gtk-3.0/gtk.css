@@ -13196,7 +13196,7 @@ overshoot.right {
 
 undershoot.top {
   background-color: transparent;
-  background-image: transparent;
+  /* background-image: transparent; */
   padding-top: 1px;
   background-size: 12px 1px;
   background-repeat: repeat-x;
@@ -13207,7 +13207,7 @@ undershoot.top {
 
 undershoot.bottom {
   background-color: transparent;
-  background-image: transparent;
+  /* background-image: transparent; */
   padding-bottom: 1px;
   background-size: 12px 1px;
   background-repeat: repeat-x;
@@ -13218,7 +13218,7 @@ undershoot.bottom {
 
 undershoot.left {
   background-color: transparent;
-  background-image: transparent;
+  /* background-image: transparent; */
   padding-left: 1px;
   background-size: 1px 12px;
   background-repeat: repeat-y;
@@ -13230,7 +13230,7 @@ undershoot.left {
 
 undershoot.right {
   background-color: transparent;
-  background-image: transparent;
+  /* background-image: transparent; */
   padding-right: 1px;
   background-size: 1px 12px;
   background-repeat: repeat-y;
@@ -14434,7 +14434,7 @@ popover.emoji-completion .emoji:hover {
 
 .nautilus-window.background.csd > grid.horizontal > paned.horizontal > separator,
 .nautilus-window.background.csd > deck > box.vertical > paned.horizontal > separator {
-  margin-left: -1;
+  margin-left: 0px;
 }
 
 .nautilus-window.background.csd placessidebar {
@@ -14551,7 +14551,7 @@ filechooser
   border-radius: 12px;
   border: 1px solid rgba(192, 202, 245, 0.2);
   margin: 0 6px 6px 0;
-  border-radius: 12px; */
+  border-radius: 12px;
 }
 
 .nautilus-window.background.csd notebook scrolledwindow > .view:not(:selected):not(:hover):not(:checked),
@@ -15844,7 +15844,7 @@ window
   > frame
   > box
   > scrolledwindow {
-  background-color: #24283b !important;
+  background-color: #24283b;
 }
 
 window > deck > box > stack > statuspage > scrolledwindow > viewport > box > entry.search {
