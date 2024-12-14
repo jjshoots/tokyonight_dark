@@ -1,5 +1,9 @@
 # Slightly modified version of Tokyonight Dark theme
 
+## Update
+
+I am now using the theme from [here](https://www.gnome-look.org/p/1681315). Specifically **Tokyonight-Dark-BL-MB.zip**.
+
 ## Installation
 
 1. Install `gnome-shell-extensions`.
